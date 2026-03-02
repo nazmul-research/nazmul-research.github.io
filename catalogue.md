@@ -1,402 +1,184 @@
-# Nazmul Portfolio CMS — Product Catalogue
+# Nazmul Portfolio CMS — Sales Catalogue
 
-## Executive Summary
-Nazmul Portfolio CMS is a production-ready personal brand platform designed for researchers, engineers, and technical professionals who need to publish work, manage credibility signals, and convert profile visitors into opportunities.
+## Product Snapshot
+Nazmul Portfolio CMS is a conversion-focused personal brand platform for researchers, engineers, and technical founders.
 
-It combines a polished public website (Home, Projects, Research, About, Blog, Contact) with a secure admin CMS that supports content workflows, media uploads, user roles, backup/export-import, and account recovery.
+It combines a modern public website with an admin dashboard so content can be updated fast without developer dependency.
 
-The platform is optimized for practical outcomes:
-- Showcase technical credibility quickly
-- Keep content current without developer bottlenecks
-- Capture collaboration and consulting inquiries
-- Provide a clear, trustworthy professional narrative
-
-Live Site: <https://nazmul-portfolio-blond.vercel.app/>
+Live Demo: <https://nazmul-portfolio-blond.vercel.app/>
 
 ---
 
-## Product Vision & Mission
-### Vision
-Build the most practical personal-brand CMS for technical professionals to communicate expertise with clarity and authority.
-
-### Mission
-Enable experts to publish, update, and present their body of work in minutes—without sacrificing design quality, security, or conversion performance.
-
----
-
-## Problem Statement
-Most personal websites fail at one or more of the following:
-- Hard to update without coding
-- Inconsistent content structure across pages
-- Weak credibility presentation (research, projects, career story)
-- Poor admin usability on mobile
-- Fragile content backup/recovery process
-- No secure, usable auth flows for real operations
-
-Result: outdated profiles, missed opportunities, lower trust.
+## Why It Sells
+- Clear authority positioning across Projects, Research, Blog, About, Contact
+- Fast content publishing through a practical CMS
+- Professional design with dark/light mode and mobile responsiveness
+- Built-in trust features: audit logs, user roles, backup/export-import, reset flows
 
 ---
 
-## Solution Overview
-Nazmul Portfolio CMS delivers:
-- A complete public-facing professional site
-- Role-based admin dashboard for non-technical updates
-- Structured content systems for Blog, Projects, Research, About, Contact
-- Media and CV management
-- Export/import backup controls
-- Security features: lockout, password reset, 2FA, audit logs
-
----
-
-## Key Features
-### 1) Public Website Experience
-- Home with featured projects and contact chips
-- Projects listing + dedicated project detail pages
+## Core Features
+### Public Website
+- Home with featured projects and direct contact chips
+- Projects listing + project detail pages
 - Research publications page
-- About page with structured profile narrative
-- Blog with categories, filters, preview, code support
-- Contact page generated from CMS data
-- Dark/light mode support and responsive layout
+- About page with structured narrative + CV download
+- Blog with filters, code blocks, and rich reading UX
+- Contact page with dynamic links/icons
 
-### 2) Content Management
-- Site settings management
-- About CMS with three structured fields:
-  - Summary
-  - Career Experience
-  - Academic Background
-- Project CMS with:
-  - Title
-  - Multi-image upload
-  - Excerpt (auto-generate option)
-  - Details
-  - Demo URL + optional GitHub URL
-  - Featured toggle
-- Research CMS with publication CRUD
-- Blog CMS with advanced writing tools
+### Admin CMS
+- Site settings and profile controls
+- About CMS (Summary, Career Experience, Academic Background)
+- Project CMS (title, multi-image, excerpt, details, links, featured toggle)
+- Research CMS (publication add/edit/delete)
+- Blog CMS (draft/publish flow, image tools, writing helpers)
+- User management + password/2FA/security controls
 
-### 3) Writing System
-- Markdown-style formatting
-- Inline and block code rendering
-- Copy code action for readers
-- Link rendering (markdown + bare URLs)
-- Cover image + multi-image slider support
-- Draft/publish workflow with editor-focused UX
-
-### 4) Security & Admin Controls
-- Admin users with role controls
-- Password policy support
-- 2FA enable/disable + recovery codes
-- Session revocation actions
-- Forgot/reset password flow
-- Audit logging
-
-### 5) Operations & Recovery
-- One-click JSON export backup
-- Import backup with dry-run and confirmation gates
-- Owner-only import application
+### Operations
+- One-click backup export
+- Import with dry-run + protection checks
+- Forgot/reset password workflow
 
 ---
 
-## Benefits for Users
-### For Visitors
-- Instantly understand expertise and credibility
-- Access clean project and research narratives
-- Better reading experience for technical content
-- Clear paths to contact and collaboration
-
-### For Site Owner
-- Faster updates without code edits
-- Professional consistency across all pages
-- Better control over data and backup safety
-- Scalable content workflow for long-term growth
+## Business Benefits
+- Faster updates = fresher brand presence
+- Better structure = higher credibility for visitors
+- Cleaner buyer journey = more inquiry conversion
+- Lower maintenance burden = better long-term consistency
 
 ---
 
-## Use Cases
-- Academic/researcher personal website
-- Technical consultant portfolio
-- Robotics/AI engineer professional profile
-- Founder/operator credibility site
-- Speaker/application-ready profile site
+## Pricing Direction (Suggested)
+- Starter: Free / low-cost base
+- Pro: premium customization + analytics
+- Custom: institution/team-level implementation
 
 ---
 
-## Competitive Advantage
-- Purpose-built for technical personal branding (not generic brochure templates)
-- Integrated Research + Projects + Blog + About in one content system
-- Security and admin controls beyond basic portfolio builders
-- Backup/export-import workflow uncommon in personal sites
-- High-quality UI with practical CMS ergonomics
-
----
-
-## Technical Architecture Overview
-- Frontend: Next.js (App Router)
-- Data Layer: Prisma ORM
-- Database: PostgreSQL (Neon)
-- Auth: NextAuth with credential flow + role checks
-- Deployment: Vercel
-- Media: DB-backed media assets with API delivery
-- Admin: server actions + validation + audit logs
-
----
-
-## Pricing Strategy
-### Recommended Model
-#### Starter (Free)
-- Core pages + standard CMS
-- Basic blog and project/research management
-
-#### Pro ($19–$49/month)
-- Advanced backups and restore workflow
-- Enhanced analytics and conversion reporting
-- Priority customization support
-
-#### Custom (Agency/Enterprise)
-- White-label variant
-- Custom integrations and workflows
-- Dedicated support and SLA
-
----
-
-## Why Choose Us
-- Built for real technical professionals, not generic marketing pages
-- Strong balance of design quality and operational control
-- Clear conversion pathways for opportunities and collaborations
-- Secure enough for production, simple enough for daily use
+## Why Choose This
+- Designed for technical credibility, not generic brochure templates
+- End-to-end content system already operational
+- Strong balance of aesthetics, speed, and control
 
 ---
 
 ## Call to Action
-If you want a serious technical brand presence that is easy to manage and built to convert, deploy Nazmul Portfolio CMS and start publishing with confidence.
+Use this platform to present expertise clearly, convert profile traffic into opportunities, and scale your personal brand with confidence.
 
 ---
 
-# CMS-Ready Content Structure
+# CMS-Ready Content Blocks
 
-## Page: Home
-### Page Title
-Home
-
-### SEO Meta Title
-Nazmul Islam | AI, Robotics, and Technical Portfolio
-
-### SEO Meta Description
-Explore Nazmul Islam’s projects, research, and technical writing in AI, robotics, and healthcare technology.
-
-### Hero Section
-- Headline: Build, Research, and Ship with Precision
-- Subheadline: A practical portfolio of AI systems, robotics work, research contributions, and engineering execution.
-- CTA: View Projects
-
-### Section Blocks
-#### Featured Work
-A curated set of projects that demonstrate applied engineering, research depth, and delivery focus.
-
-#### Research Highlights
-Publications and research outcomes focused on robotics, sensing, and intelligent systems.
-
-#### Technical Writing
-Clear, practical writing on systems, implementation decisions, and lessons from real builds.
-
-#### Contact Access
-Direct communication channels for collaboration, consulting, and speaking opportunities.
-
-### FAQ
-- What does Nazmul specialize in?
-- How can I collaborate?
-- Where can I read research output?
-
-### Footer Call-to-Action
-Start a conversation about your next technical initiative.
-
----
-
-## Page: Projects
-### Page Title
-Projects
-
-### SEO Meta Title
-Projects | Nazmul Islam Portfolio
-
-### SEO Meta Description
-Browse engineering projects with concise summaries, technical context, demos, and source references.
-
-### Hero Section
-- Headline: Projects That Move from Idea to Implementation
-- Subheadline: Practical systems across robotics, AI, and applied engineering.
-- CTA: Explore Featured Projects
-
-### Section Blocks
-#### Project Library
-A searchable, visual collection of projects with clear outcomes and technical framing.
-
-#### Demo and Repository Access
-Quick access to live demos and optional source repositories for deeper review.
-
-#### Detailed Case View
-Each project has a dedicated detail page for full context, architecture, and media.
-
-### FAQ
-- Are demos available for all projects?
-- Is source code public for each project?
-- Can I request implementation details?
-
-### Footer Call-to-Action
-Review project details and request a technical walkthrough.
-
----
-
-## Page: Research
-### Page Title
-Research
-
-### SEO Meta Title
-Research Publications | Nazmul Islam
-
-### SEO Meta Description
-Review selected research publications with year, venue, title, authors, and publication links.
-
-### Hero Section
-- Headline: Research Contributions with Practical Direction
-- Subheadline: Publications focused on robotics, sensing, and intelligent healthcare systems.
-- CTA: Read Publications
-
-### Section Blocks
-#### Publication List
-Structured entries for quick evaluation: year, venue, title, and authors.
-
-#### Access Links
-Direct links to publication sources for verification and citation.
-
-### FAQ
-- What are the primary research domains?
-- Where are publications hosted?
-- Are collaboration opportunities open?
-
-### Footer Call-to-Action
-Discuss potential research collaboration or applied translation.
-
----
-
-## Page: About
-### Page Title
-About
-
-### SEO Meta Title
-About Nazmul Islam | Background, Career, and Academic Profile
-
-### SEO Meta Description
-Learn about Nazmul Islam’s summary, career experience, academic background, and CV.
-
-### Hero Section
-- Headline: The Story Behind the Work
-- Subheadline: A concise profile of technical focus, professional trajectory, and academic foundation.
-- CTA: Download CV
-
-### Section Blocks
-#### Summary
-A clear overview of current focus areas, strengths, and mission.
-
-#### Career Experience
-Role history and practical industry execution across technical domains.
-
-#### Academic Background
-Educational foundation and research trajectory shaping current work.
-
-### FAQ
-- Where is Nazmul currently based academically?
-- Which domains define current focus?
-- How can I access the CV?
-
-### Footer Call-to-Action
-Use this profile as your quick due-diligence reference.
-
----
-
-## Page: Blog
-### Page Title
-Blog
-
-### SEO Meta Title
-Technical Blog | Nazmul Islam
-
-### SEO Meta Description
-Read practical technical writing, project notes, and research-adjacent insights from Nazmul Islam.
-
-### Hero Section
-- Headline: Technical Writing for Real Builders
-- Subheadline: Personal updates, technical rabbit holes, and practical reflections.
-- CTA: Read Latest Post
-
-### Section Blocks
-#### Filtered Reading Experience
-Search and filter by category, year, month, and title for scalable archive browsing.
-
-#### Reader-Centric Post Design
-Code blocks, progress indicators, TOC, and content navigation optimized for deep reading.
-
-#### Share and Discover
-Built-in sharing, related content, and navigation to increase content reach.
-
-### FAQ
-- How often are new posts published?
-- Are posts category-tagged?
-- Can I share articles directly?
-
-### Footer Call-to-Action
-Follow ongoing technical notes and implementation insights.
-
----
-
-## Page: Contact
-### Page Title
-Contact
-
-### SEO Meta Title
-Contact Nazmul Islam | Collaborations and Inquiries
-
-### SEO Meta Description
-Reach Nazmul Islam for collaborations, consulting, research, and technical discussions.
-
-### Hero Section
-- Headline: Let’s Build or Research Together
-- Subheadline: Direct channels for project work, partnerships, and technical conversations.
-- CTA: Send an Inquiry
-
-### Section Blocks
-#### Direct Contact Methods
-Email, mobile, WhatsApp, and professional profiles in one place.
-
-#### Professional Networks
-Access LinkedIn, GitHub, and research profiles for background and context.
-
-### FAQ
-- Which channel is best for urgent contact?
-- Are consulting engagements available?
-- Can I reach out for research collaboration?
-
-### Footer Call-to-Action
-Start the conversation with your project or research objective.
-
----
-
-# Visual References
-
-## Homepage
-![Homepage Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/)
+## Home
+- **Page Title:** Home
+- **SEO Meta Title:** Nazmul Islam | AI, Robotics, and Technical Portfolio
+- **SEO Meta Description:** Explore projects, research, and technical writing by Nazmul Islam.
+- **Hero Headline:** Build, Research, and Ship with Precision
+- **Hero Subheadline:** A practical portfolio of AI systems, robotics work, and technical delivery.
+- **Hero CTA:** View Projects
+- **Section Block 1 (H2):** Featured Work  
+  Curated projects that demonstrate practical execution and measurable outcomes.
+- **Section Block 2 (H2):** Research Highlights  
+  Publication-backed expertise for academic and industry credibility.
+- **Section Block 3 (H2):** Technical Writing  
+  Clear insights from real implementation decisions.
+- **FAQ:**
+  - What services or collaborations are available?
+  - Where can I see research output?
+  - How can I contact Nazmul quickly?
+- **Footer CTA:** Start a collaboration conversation.
 
 ## Projects
-![Projects Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/projects)
+- **Page Title:** Projects
+- **SEO Meta Title:** Projects | Nazmul Islam Portfolio
+- **SEO Meta Description:** Explore technical projects with concise summaries, demos, and source links.
+- **Hero Headline:** Projects That Move from Idea to Implementation
+- **Hero Subheadline:** Practical systems across robotics, AI, and applied engineering.
+- **Hero CTA:** Explore Projects
+- **Section Block 1 (H2):** Project Library  
+  Organized cards designed for fast scanning and quick relevance checks.
+- **Section Block 2 (H2):** Demo and Source Access  
+  Immediate links to live demos and optional GitHub repositories.
+- **FAQ:**
+  - Are demos available for all projects?
+  - Is source code public?
+  - Can I request implementation details?
+- **Footer CTA:** Review a project and request a walkthrough.
 
 ## Research
-![Research Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/research)
+- **Page Title:** Research
+- **SEO Meta Title:** Research Publications | Nazmul Islam
+- **SEO Meta Description:** Selected publications with year, venue, title, authors, and links.
+- **Hero Headline:** Research Contributions with Practical Direction
+- **Hero Subheadline:** Publications focused on robotics, sensing, and intelligent systems.
+- **Hero CTA:** Read Publications
+- **Section Block 1 (H2):** Publication List  
+  Year, journal/conference, title, and authors presented for quick credibility validation.
+- **Section Block 2 (H2):** Direct Access  
+  One-click links to publication sources.
+- **FAQ:**
+  - What are the main research domains?
+  - Are publications peer-reviewed?
+  - Is collaboration open?
+- **Footer CTA:** Discuss research collaboration opportunities.
 
 ## About
-![About Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/about)
+- **Page Title:** About
+- **SEO Meta Title:** About Nazmul Islam | Summary, Career, Academic Background
+- **SEO Meta Description:** Learn about Nazmul Islam’s background, experience, and CV.
+- **Hero Headline:** The Story Behind the Work
+- **Hero Subheadline:** Summary, career experience, and academic background in one place.
+- **Hero CTA:** Download CV
+- **Section Block 1 (H2):** Summary  
+  High-level professional identity and strategic focus.
+- **Section Block 2 (H2):** Career Experience  
+  Practical role history and delivery record.
+- **Section Block 3 (H2):** Academic Background  
+  Educational and research foundation.
+- **FAQ:**
+  - Where is Nazmul currently affiliated?
+  - Which domains define core focus?
+  - How do I access the CV?
+- **Footer CTA:** Use this page for quick profile due diligence.
 
 ## Blog
-![Blog Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/blog)
+- **Page Title:** Blog
+- **SEO Meta Title:** Technical Blog | Nazmul Islam
+- **SEO Meta Description:** Practical technical writing, project notes, and research-adjacent insights.
+- **Hero Headline:** Technical Writing for Real Builders
+- **Hero Subheadline:** Focused notes from shipping, debugging, and building.
+- **Hero CTA:** Read Latest Post
+- **Section Block 1 (H2):** Filtered Reading  
+  Search and category filtering for fast content discovery.
+- **Section Block 2 (H2):** Reader Experience  
+  Code-friendly post layout with better technical readability.
+- **FAQ:**
+  - How often is new content published?
+  - Can I filter by category?
+  - Can I share posts directly?
+- **Footer CTA:** Follow the latest technical insights.
 
 ## Contact
-![Contact Screenshot](https://image.thum.io/get/width/1400/https://nazmul-portfolio-blond.vercel.app/contact)
+- **Page Title:** Contact
+- **SEO Meta Title:** Contact Nazmul Islam | Collaboration and Inquiry
+- **SEO Meta Description:** Reach Nazmul for consulting, projects, and research discussions.
+- **Hero Headline:** Let’s Build or Research Together
+- **Hero Subheadline:** Direct channels for serious technical conversations.
+- **Hero CTA:** Contact Now
+- **Section Block 1 (H2):** Direct Channels  
+  Email, mobile, WhatsApp, and profile links in one place.
+- **Section Block 2 (H2):** Professional Profiles  
+  LinkedIn, GitHub, Scholar, and ResearchGate for trust and context.
+- **FAQ:**
+  - Which channel is fastest?
+  - Are consulting engagements open?
+  - Can I reach out for research work?
+- **Footer CTA:** Send your project objective and timeline.
+
+---
+
+## Dashboard Screenshot Request
+Yes, I can add an inside-dashboard screenshot too. Share one of these and I’ll include it in this catalogue:
+1. A screenshot file from your side, or
+2. Temporary login details for safe capture.
