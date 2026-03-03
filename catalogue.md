@@ -182,3 +182,16 @@ Use this platform to present expertise clearly, convert profile traffic into opp
 Yes, I can add an inside-dashboard screenshot too. Share one of these and I’ll include it in this catalogue:
 1. A screenshot file from your side, or
 2. Temporary login details for safe capture.
+
+
+## Admin Dashboard Snapshots
+
+Authenticated dashboard screenshots were captured for these panels:
+- Site CMS
+- Projects CMS
+- Blog CMS
+- Research CMS
+- About CMS
+- Users CMS
+
+Note: These are admin-authenticated views and are not publicly embeddable like page screenshots. They should be shared privately in sales/demo contexts.
